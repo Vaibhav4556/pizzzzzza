@@ -14,7 +14,7 @@ const pizzasRoute = require ('./routes/pizzasRoute')
 const userRoute = require ('./routes/userRoute')
 
 
-if (process.env.NODE === "production")
+if (process.env.NODE_ENV === "production")
 {
   app.use('/' , express.static('pizza_house/build'))
 
