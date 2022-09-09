@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Serif', serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-size: 17px !important;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color:red !important;
+  color: antiquewhite !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color: red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color: red;
+}
+
+input{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+}
+
+.button{
+  margin-top: 20px;
+  
+  background-color: red;
+  color: white;
+}
