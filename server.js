@@ -28,7 +28,7 @@ app.use('/api/pizzas/', pizzasRoute)
 
 app.use('/api/users/' , userRoute)
 
-const PORT = process.env.PORT || 4000 
+const port = process.env.PORT || 4000 
 
 // app.get('/', function (req, res) {
 //   res.send('Hello World1111')
@@ -51,4 +51,4 @@ const PORT = process.env.PORT || 4000
 
 
 
-app.listen(PORT,()=>console.log(`app is started in ${PORT}`))
+app.listen(port,()=>console.log(`app is started in ${port}`))
