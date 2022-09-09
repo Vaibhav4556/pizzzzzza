@@ -12,7 +12,9 @@ const path = require("path")
 const pizzasRoute = require ('./routes/pizzasRoute')
 
 const userRoute = require ('./routes/userRoute')
+app.use('/api/pizzas/', pizzasRoute)
 
+app.use('/api/users/' , userRoute)
 
 if (process.env.NODE_ENV === "production")
 {
@@ -24,9 +26,7 @@ if (process.env.NODE_ENV === "production")
   })
 }
 
-app.use('/api/pizzas/', pizzasRoute)
 
-app.use('/api/users/' , userRoute)
 
 const port = process.env.PORT || 4000 
 
