@@ -43,7 +43,7 @@ export default function Registerscreen() {
             <input type="text" placeholder="name" className="form-control"  value={name} required onChange={(e)=>setName(e.target.value)}/>
             <input type="text" placeholder="email" className="form-control" value={email}  required  onChange={(e)=>setEmail(e.target.value)} />
             <input
-              type="text"
+              type="password"
               placeholder="password"
               className="form-control"
               value={password} 

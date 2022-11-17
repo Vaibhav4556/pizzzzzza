@@ -42,7 +42,7 @@ export default function Loginscreen() {
           
             <input type="text" placeholder="email" className="form-control" value={email}  required  onChange={(e)=>setEmail(e.target.value)} />
             <input
-              type="text"
+              type="password"
               placeholder="password"
               className="form-control"
               value={password} 
